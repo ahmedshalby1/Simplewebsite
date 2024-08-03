@@ -1,0 +1,112 @@
+nav {
+    background-color: #333;
+    overflow: hidden;
+    position: absolute;
+    width: 1671px;
+    height: 46px;
+    top: 0px;
+    left: 0px;
+  }
+  
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+  
+  nav li {
+      float: right;
+  }
+  
+  nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 13px 30px;
+      text-decoration: none;
+  transition-duration: 0.5s;
+  transition-timing-function:ease ;
+    font-weight: 900;
+  
+  }
+  
+  nav li a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+  .name{
+  position: absolute;
+  top: 1px;
+  left: 409px;
+  font-weight: 900;
+  }
+  body {
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    width: 10px;
+    height: 96vh;
+  }
+  .text{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    z-index: 2;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 46px;
+    width: 529px;
+  }
+  .buttons{
+    position: absolute;
+    top: 46%;
+    left: 52%;
+    z-index: 2;
+    
+  }
+  .buttons .one {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 132px;
+    left: -203px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 900;
+    transition-duration: 0.5s;
+    transition-timing-function:ease ;
+  }
+  .buttons .one:hover {
+          background-color: white;
+    color: black;
+  }
+  .buttons .two {
+    background-color: white;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 132px;
+    left: 21px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 900;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+  }
+  .buttons .two:hover{
+    background-color: black;
+    color: white;
+  }
+  
